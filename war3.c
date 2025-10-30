@@ -39,7 +39,7 @@ int main(void) {
 
     printf("=== SIMULACAO DE GUERRA TERRITORIAL ===\n\n");
 
-    int total = lerInteiro("Informe o numero de territorios a cadastrar (min 2): ", 2, 1000);
+    int total = lerInteiro("Informe o numero de territorios a cadastrar (min 4): ", 4, 1000);
 
     Territorio* mapa = alocarMapa(total);
     if (!mapa) {
